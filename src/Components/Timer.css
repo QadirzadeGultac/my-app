@@ -1,0 +1,23 @@
+.timer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.timer-button{
+    border: 1px solid #951DD1;
+  border-radius: 10px;
+  color: white;
+  background-color: #951DD1;
+  height: 30px;
+  padding-top: 5px;
+  width: 10vw;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.timer input{
+    width: 200px;
+    font-size: 20px;
+    padding-left: 5px;
+}
