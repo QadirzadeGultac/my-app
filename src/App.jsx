@@ -30,7 +30,6 @@ function App() {
   }
   return (
     <div className='app'>
-      <Router>
         <Routes>
           {/* Default olaraq Login səhifəsinə yönləndirmək */}
           <Route path="/" element={<Login />} />
@@ -52,7 +51,6 @@ function App() {
         {residentsVisible && <Residents />}
         {usersVisible && <Users />}
         {priceListVisible && <PriceList />}
-      </Router>
     </div>
   )
 }
