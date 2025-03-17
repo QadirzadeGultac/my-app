@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.residents-header{
+    background-color: white;
+    width: 80vw;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding-top: 7px;
+    padding-bottom: 8px;
+}
+.input-group{
+    border: 0.3px solid #000000;
+    width: 165px;
+    border-radius: 7px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+}
+input{
+    border: none;
+    outline: none;
+    width: 135px;
+    padding: 5px 12px;
+    font-size: 11.5px;
+}
+.input-group:hover{
+    border: 0.3px solid #53A6D8;
+}
+button{
+    height: 2.9375rem;
+    padding: 0;
+    font-size: 1.125rem;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 0.3px solid #2D83B6;
+    background-color: #2D83B6;
+    color: white;
+    font-family: 'Poppins Regular',
+}
+.search-button{
+    max-height: 35px;
+    padding: 0.8rem 1rem;
+    display: flex;
+    font-size: 1rem;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+}
+.new-goods{
+    max-height: 35px;
+    font-size: 1rem;
+    padding: 0.8rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px !important;
+    cursor: pointer;
+}
+.add-button {
+    background-color: #14567D;
+    color: #FFFFFF !important;
+    width: 100%;
+    height: 40px;
+    padding: 10px 24px;
+    font-size: 1.125rem;
+    max-width: 163px;
+    background: #14567D;
+    line-height: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.modal-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        "one one one"
+        "group1 group2 group3"
+        "group4 group5 add";
+    gap: 15px;
+    padding-bottom: 10px;
+}
+
+.add {
+    text-align: center;
+    width: 265px;
+}
+
+.custom-modal .ant-modal-title {
+    font-size: 20px;
+    color: #14567D !important;
+    font-weight: 600;
+    line-height: 1.4;
+}
+.one {
+    width: 815px;
+    grid-area: one;
+}
+.one input{
+    width: 700px;
+}
+.group-one {
+    width: 238px;
+    grid-area: group1;
+}
+.group-one input{
+    width: 200px;
+}
+.group-two input{
+    width: 200px;
+}
+.group-three input{
+    width: 200px;
+}
+.group-four input{
+    width: 200px;
+}
+.group-five input{
+    width: 200px;
+}
+.group-two {
+    width: 238px;
+    grid-area: group2;
+}
+.group-three {
+    width: 238px;
+    grid-area: group3;
+}
+.group-four {
+    width: 238px;
+    grid-area: group4;
+}
+.group-five {
+    width: 238px;
+    grid-area: group5;
+}
+
+.clear-button{
+    font-size: 1rem;
+    max-height: 35px;
+    padding: 0.8px 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    margin-left: 5px;
+    cursor: pointer;
+}

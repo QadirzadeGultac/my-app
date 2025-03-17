@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.main{
+     height: 100vh; /* Bütün ekran boyu */
+     width: 100vw;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20240408/pngtree-cars-parked-in-the-outdoor-parking-lot-image_15649938.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+}
+.login-main{
+    background-color: white;
+    width: 550px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.name, .password{
+    border: 0.5px solid #F5F5F5;
+    background-color: #F5F5F5;
+    width: 460px;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 14px;
+
+}
+.login-main img{
+    width: 300px;
+}
+.login-button{
+    background-color: #53A6D8;
+    border: 1px solid #53A6D8;
+    border-radius: 8px;
+    width: 485px;
+}
