@@ -32,7 +32,7 @@ function App() {
     <div className='app'>
         <Routes>
           {/* Default olaraq Login səhifəsinə yönləndirmək */}
-          <Route path="/" element={<Login />} />
+          <Route path="#/" element={<Login />} />
           <Route 
             path="/dashboard" 
             element={
